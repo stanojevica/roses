@@ -42,3 +42,14 @@
         font-size: 20px;
     }
 }
+@media screen and (max-width: 360px){
+    #forma input, #forma label, #forma textarea,#forma select{
+        width: 100px;
+    }
+    #forma label, span{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 40px;
+    }
+}
