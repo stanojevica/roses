@@ -335,7 +335,7 @@ mojaSlika.setAttribute('alt','autorSlika');
 document.getElementById("slikaAutor").appendChild(mojaSlika);
 
 var linkPortfolio = document.createElement('a');
-linkPortfolio.href='file:///C:/Users/Maruska/Desktop/portfolio/index.html#';
+linkPortfolio.href='https://portfolioaleksandrastanojevic.000webhostapp.com/';
 linkPortfolio.innerHTML='LINK DO PORTFOLIA'
 var nizOpis = ['Zdravo, ja sam Aleksandra Stanojevic','Student sam Visoke strukovne škole za informacione i komunikacione tehnologije.','Ovaj sajt radim kao predispitnu obavezu iz predmeta Web programiranje 1, a želja mi je da se bavim ovim i u budućnosti.','Ukoliko želite da saznate nešto više od meni ili da vidite neki od mojih prethodih radova link do mog portfolia je ispod teksta.'];
 
