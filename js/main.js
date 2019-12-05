@@ -330,7 +330,7 @@ function provera(){
 //Ubacivanje sadrzaja u div oAutoru
 
 var mojaSlika = document.createElement("img")
-mojaSlika.setAttribute('src','img/me1.jpg');
+mojaSlika.setAttribute('src','img/me1.JPG');
 mojaSlika.setAttribute('alt','autorSlika');
 document.getElementById("slikaAutor").appendChild(mojaSlika);
 
