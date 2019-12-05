@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Roses|Online prodaja ruza</title>
+        <meta charset="utf-8"/>
+        <meta name="keywords" content="online prodaja, ruze, cvece, ruza, cvet, buket,101 ruza"/>
+        <meta name="description" content="Bavimo se uslužnom delatnošću, online prodaji ruža"/>
+        <meta name="author" content="Aleksandra Stanojević"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="shorcut icon" href="img/logoIco.ico"/>
+        <link href="https://fonts.googleapis.com/css?family=Gabriela&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/jquery.cycle.all.min.js" type="text/javascript" ></script>
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="css/responsiv.css" type="text/css"/>
+    </head>
+    <body>
+        <header id="pocetna">
+            <div id="navigacija">
+                <nav>
+                    <div id="logo">
+                        <img src="img/logo.png" alt="logo">
+                    </div> 
+                    <div id="meni">
+                    </div>
+                    <div id="responsivNavigacija">
+                        <div id="atag"><a href="#navbarmin"><i class="fas fa-bars"></i></a></div>
+                        <div id="responsivMeni"></div>
+                    </div>
+                </nav>
+            </div>
+            <div id="naslov">
+                <h1>ONLINE PRODAJA RUŽA</h1>
+                <p>Nije htela da je vidi kako plače. Bila je to vrlo ponosna ruža</p>
+                <p>,,I uvek ćete voleti?”. ,,Ne”, reče ruža ,,jednog dana ću uvenuti i onda će prestati da mi se dive”. ,,Baš čudno”, reče Mali Princ ,, da si ti moja ruža , ja bih te voleo i tada”</p>
+                <p>Vreme koje si uložio oko svoje ruže čini tu ružu tako dragocenom.</p>
+                <h2>Naše ruže su dragocene, jer dosta vremena ulažemo u njih i volimo ih baš kao i mali princ</h2>
+            </div>
+            <div id="arrow">
+                <a href="#"><i class="fas fa-arrow-up"></i></a>
+            </div>
+        </header>
+        <main>
+           <div id="oNama" >
+               <div class="naslovMain"><h3>O nama</h3></div>
+               <div class="flex">
+                    <div class="text">
+                        <p>Bavimo se uslužnom delatnošću, online prodaji ruža.</p>
+                        <p>Mi uzgajamo ruže, brinemo o njima i pakujemo tako da vi budete zadovoljni.</p>
+                        <p>U našoj ponudi možete pronaći crvenu, plavu i zlatnu ružu upakovane u staklenu kutiju baš kao iz naše omiljene bajke "Lepotica i zver", kao i set od 12 ruža i 101 ruže što možete videti u sledećem delu sajta.</p>
+                        <p>Hvala na poverenju. </p>
+                    </div>
+                    <div class="slika" id="slider">
+                        <img src="img/prodaja.jpg" alt="prodaja"/>  
+                        <img src="img/prodaja1.jpg" alt="prodaja"/>  
+                        <img src="img/prodaja2.jpg" alt="prodaja"/>  
+                        <img src="img/prodaja3.jpg" alt="prodaja"/>  
+                    </div>
+               </div>
+           </div>
+           <div id="ponuda">
+                <div class="naslovMain"><h3>Ponuda</h3></div>
+                <div id="izaberi">
+                    <label for="izaberi">Izaberite boju</label>
+                    <select name="izaberi" id="izabrati">
+                        <option value="sve">Sve</option>
+                        <option value="crvena">Crvena</option>
+                        <option value="plava">Plava</option>
+                        <option value="zlatna">Zlatna</option>
+                    </select>
+                </div>
+                <div id="cvenaBoja">
+                </div>
+                <div id="plavaBoja">
+                </div>
+                <div id="zlatnaBoja">
+                </div>
+           </div>
+           <div id="narudzba" >
+                <div class="naslovMain"><h3>Narudžbina</h3></div>
+                <div class="flex">
+                    <div id="forma">
+                        <form method="" action="">										
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td><label for="name">Ime</label></td>
+                                        <td>
+                                            <input type="text" id="name" name="name"/>
+                                            <span class="obavezno">*</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="lastName">Prezime</label></td>
+                                        <td>
+                                            <input type="text" id="lastName" name="lastName"/>
+                                            <span class="obavezno">*</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="email">E-mail</label></td>
+                                        <td>
+                                            <input type="email" id="email" name="email" value=""/>
+                                            <span class="obavezno">*</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="izaberiCvet">Izaberite ružu</label></td>
+                                        <td>
+                                            <select name="izaberiCvet" id="izabratiCvet">
+                                                <option value="sve">Izaberite</option>
+                                                <optgroup label="Crvena">
+                                                    <option value="crvena1">1</option>
+                                                    <option value="crvena12">12</option>
+                                                    <option value="crvena101">101</option>
+                                                </optgroup>
+                                                <optgroup label="Plava">
+                                                    <option value="plava1">1</option>
+                                                    <option value="plava12">12</option>
+                                                    <option value="plava101">101</option>
+                                                </optgroup>
+                                                <optgroup label="Zlatna">
+                                                    <option value="zlatna1">1</option>
+                                                    <option value="zlatna12">12</option>
+                                                    <option value="zlatna101">101</option>
+                                                </optgroup>
+                                            </select>
+                                            <span class="obavezno">*</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="message">Poruka</label></td>
+                                        <td>
+                                            <textarea id="message" name="message" value=""></textarea>
+                                            <span class="obavezno">*</span>                     
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><input type="button" value="Posalji" id="dugme"/></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </form>
+                    </div>
+                    <div class="slika">
+                        <div id="slikaForma"></div>
+                        <div id="textForma"></div>
+                    </div>
+                </div>
+           </div>
+           <div id="oAutoru">
+               <div class="naslovMain"><h3>O autoru</h3></div>
+                <div class="flex">
+                    <div id="textAutor"></div>
+                    <div id="slikaAutor" class="slika"></div>
+                </div>
+           </div>
+        </main>
+        <footer>
+           <div class="flex" id="futer">
+                <div>
+                    <p>Roses | Online prodaja ruza</p>
+                    <p>Aleksandra Stanojevic &copy;</p>
+                </div>
+                <div>
+                    <p>
+                        <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/" target="blank"><i class="fab fa-twitter"></i></a>
+                    </p>
+                    <p>
+                        <a href="#">Dokumentacija</a>
+                    </p>
+                </div>
+           </div>
+        </footer>
+        <script src="js/jquery-1.4.min.js" type="text/javascript" ></script>
+        <script src="js/jquery.cycle.all.min.js" type="text/javascript" ></script>
+        <script src="js/main.js" type="text/javascript"></script>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px){
+    #logo{
+        width: 30%;
+    }
+    #meni{
+        display: none;
+    }
+    #responsivNavigacija{
+        display: block;
+    }
+    #responsivMeni{
+        display: none;
+    }
+    #naslov{
+        width: 90%;
+        margin: 15px auto;
+    }
+    .flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .flex div,.flex figure{
+        width:100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .slika{
+        width:100%;
+    }
+    #futer div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #forma input, #forma label, #forma textarea,#forma select{
+        width: 150px;
+    }
+    select option, select optgroup{
+        font-size: 15px;
+    }
+    #forma label, span{
+        font-size: 20px;
+    }
+}

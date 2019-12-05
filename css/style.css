@@ -1,0 +1,194 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Gabriela', serif;
+	background:url("../img/background4.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header{
+	min-height: 100vh;
+}
+.visinaSirina{
+	width:90%;
+	margin:0px auto;
+	padding-top: 30px;
+	min-height: 100vh;
+}
+.sirina{
+	width: 100%;
+}
+nav{
+	margin:0px auto;
+	width:90%;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+a{
+	text-decoration: none;
+	color:#2C050A;
+}
+ul{
+	list-style-type: none;
+}
+#logo{
+	margin-top: 10px;
+	width:15%;
+}
+#logo img{
+	width:100%;
+}
+#meni{
+	width: 60%;
+	font-size:2vw;
+	font-weight: bold;
+	color:2C050A;
+}
+.meniHover{
+	background: white;
+}
+#responsivNavigacija {
+	margin-top: 30px;
+	display: none; 
+}
+#atag {
+	margin-right: 20px;
+	font-size: 35px;
+	position: absolute;
+	top:20px;
+	right: 40px;
+}
+#responsivMeni {
+	position: fixed;
+	top: 60px;
+	right: 20px;
+	z-index: 1;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	background-color:rgba(44, 5, 10, 0.7) ;
+}
+#responsivMeni a{
+	color:white;
+}
+#arrow {
+	width: 100%; 
+}
+#arrow a {
+    font-size: 30px;
+    position: fixed;
+    right: 8px;
+    top: 93%;
+	z-index: 1; 
+}
+#naslov{
+	width:55%;
+	margin:25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+#naslov p{
+	font-size: 25px;
+	margin: 5px 0px;
+}
+#naslov h2{
+	font-size:30px;
+	color:#2C050A;
+}
+h1{
+	font-size:30px;
+	color:#2C050A;
+}
+.text{
+	width: 40%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-size: 28px;
+}
+h3{
+	font-size: 50px;
+	margin-bottom: 30px;
+	color:	#2C050A;
+}
+.slika{
+	width:50%;
+}
+.slika img{
+	width: 100%;
+}
+.naslovMain{
+	width: 70%;
+	margin: 0px auto;
+	display: flex;
+	justify-content: center;
+}
+.ponudaSadrzaj div{
+	margin-top: 35px;
+	width:100%;
+}
+.ponudaSadrzaj figure{
+	width: 30%;
+}
+.ponudaSadrzaj img{
+	width:100%;
+}
+figcaption p{
+	color:white;
+	font-weight: bold;
+}
+.sakrij{
+	display: none;
+}
+label{
+	font-size:30px;
+}
+input,textarea,select{
+	width:200px;
+	height: 30px;
+	font-size:20px;
+	margin: 10px;
+	background-color: #2C050A;
+	color:white;
+}
+#dugme{
+	margin-left:100px;
+}
+#textForma{
+	font-size: 20px;
+	font-weight: bold;
+}
+#slikaForma img{
+	width: 60%;
+}
+.borderRadius{
+	border-radius: 10px;
+}
+footer{
+	margin-top: 20px;
+	width: 100%;
+	height: 10vh;
+}
+#futer{
+	margin: 0px auto;
+	width:90%;
+	font-size:20px;
+}
