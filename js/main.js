@@ -12,8 +12,12 @@ $(document).ready(function(){
     $('#forma,#textAutor').addClass('text');
     $('input,textarea,select,img').addClass('borderRadius');
     //Funkcija scroll da se pojavi strelica koja vodi do vrha kada neko skroluje
-    $(document).scroll(function(){
-        $('#arrow').removeClass('sakrij');
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 500){
+            $('#arrow').removeClass('sakrij');}
+        else{
+            $('#arrow').addClass('sakrij');
+        }
     });
     //Hover efekat za meni da se postavi pozadinska boja
     $('#meni ul li').hover(
