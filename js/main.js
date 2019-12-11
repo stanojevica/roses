@@ -36,7 +36,6 @@ $(document).ready(function(){
       });
     //Plugin za slider
     $('#slider').cycle({
-        fx: 'shuffle'
     });
     //Funckija klik koja prikazuje skriveni p tag za cenu u divu Ponuda
     $(".dugmeT").click(function(){
